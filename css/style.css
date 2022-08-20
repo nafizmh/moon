@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
+
+/* ----------------------------------------Tophead----------------------------------------- */
+#tophead{
+    background-color: #052501 !important;
+    overflow: hidden;
+}
+.topheadicon{
+    color: #4BC714 !important;
+    font-size: 1.3rem;
+    padding-right: 1rem !important;
+    padding-top: 1rem !important;
+    
+}
+.topheadh5{
+    color: white;
+    font-size: 0.9rem !important;
+    
+}
+/* ----------------------------------------Tophead End----------------------------------------- */
+/* ----------------------------------------Mainhead----------------------------------------- */
+#mainhead{
+    margin-top: -1.8rem !important;
+    overflow: hidden !important;
+    background-color: #052501 !important;
+}
+.mainheadbgcolor{
+    background-color: #090501 !important;
+}
+.mainheadtxt{
+    color: white !important;
+}
+
+.mainheadsrcbtn{
+    background-color: #052501 !important;
+    margin-right: 2rem !important;
+}
+/* ----------------------------------------Mainhead End----------------------------------------- */
+/* ----------------------------------------Slider----------------------------------------- */
+#slider{
+    height: 82vh;
+    margin-top: -2rem;
+    background-image: url(../pic/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+}
+.mymaintxt{
+    font-family: 'DynaPuff', cursive;
+    font-weight: 600;
+    font-size: 4rem !important;
+}
+.mysubtxt{
+    color: #4BC714 !important;
+    font-size: 2rem;
+    font-family: 'DynaPuff', cursive;
+}
+.myp{
+    font-family: 'DynaPuff', cursive;
+    line-height: 2.0rem;
+    font-size: 1rem !important;
+}
+.mybtn{
+    /* margin-right: 2rem; */
+    border: 2px solid white !important;
+    border-radius: 1rem;
+    margin: auto !important;
+}
+.mybtna{
+    font-weight: 600;
+    font-family: 'DynaPuff', cursive;
+}
+/* ----------------------------------------Slider End----------------------------------------- */
+/* ----------------------------------------About----------------------------------------- */
+#about{
+    overflow: hidden;
+}
+.aboutmaintxt{
+    color: #163F03;
+}
+.aboutsubtxt{
+    font-weight: 100 !important;
+    border-bottom: 1px solid #163F03;
+}
+.aboutbtn{
+    background-color: #052501;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top:0.5rem ;
+    padding-bottom:0.5rem ;
+}
+/* ----------------------------------------About End----------------------------------------- */
+/* ----------------------------------------Offer----------------------------------------- */
+
+#offer{
+    overflow: hidden;
+}
+#box{
+    background-color: #052501;
+}
+.boxtxt{
+    color: #4BC714;
+    font-size: 3rem !important;
+}
+.boxsubtxt{
+    font-weight: 100;
+    font-size: 2rem !important;
+    color:white !important;
+}
+.offermaintxth{
+    font-weight: 100;
+
+}
+.offersubtxt{
+    font-weight: 100;
+    color: #4BC714 !important;
+    margin-top: -1rem !important;
+    border-bottom: 2px solid black;
+}
+.offeritem{
+    background-color: #052501;
+    overflow: hidden;
+}
+.offermaintxt{
+    font-size: 1.875rem !important;
+    color: white !important;
+}
+.offerbox2{
+    margin-top: 2rem !important;
+}
+/* ----------------------------------------Offer End----------------------------------------- */
+
+
+/* ----------------------------------------Moon Product----------------------------------------- */
+#moonproduct{
+    overflow: hidden;
+}
+.moonproducthead .mymaintxt{
+    /* font-size: 2rem !important; */
+    border-bottom: 2px solid;
+}
+.moonproducthead strong{
+    color: #4BC714 !important;
+    font-weight: 100;
+}
+.productboxwraper{
+    position: relative;
+}
+.productname{
+    position: absolute;
+    color: white !important;
+    bottom:-0.438rem;
+    z-index: 99999;
+    width: 100%;
+    padding: 15px 0 15px 0px;
+    background-color: #052501d4 !important;
+}
+.productimgsize{
+    height: 17.5rem;
+    width: 100%;
+}
+/* ----------------------------------------Moon Product End----------------------------------------- */
+#testomonial .mymaintxt{
+    /* font-size: 1.8rem !important; */
+    font-weight: 400 !important;
+    /* border-bottom: 2px solid; */
+}#testomonial .mymaintxtj{
+    /* font-size: 1.8rem !important; */
+    font-weight: 400 !important;
+    /* border-bottom: 2px solid; */
+}
+#testomonial strong{
+    color: #4BC714 !important;
+    font-weight: 100;
+}
+.testimg{
+    border: 13px solid #4BC714;
+}
+.testimg2{
+    position: relative;
+    bottom: 0;
+    right: -9.82rem;
+}
+#testomonial p{
+    padding: 26px 42px !important;
+    color: white !important;
+    background-color: #052501 !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+    .offerbox3{
+        margin-top: 13rem !important;
+    }
+    .offerbox2{
+        margin-top: 5rem !important;
+    }
+    #testomonial p{
+        margin-left: -3.188rem !important;
+    }
+}
