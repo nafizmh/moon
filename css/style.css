@@ -159,7 +159,7 @@
     background-color: #052501d4 !important;
 }
 .productimgsize{
-    height: 17.5rem;
+    height: 20.6rem;
     width: 100%;
 }
 /* ----------------------------------------Moon Product End----------------------------------------- */
@@ -182,13 +182,12 @@
 .testimg2{
     position: relative;
     bottom: 0;
-    right: -9.82rem;
+    right: -12.42rem;
 }
 #testomonial p{
-    padding: 26px 42px !important;
+    padding: 29px 42px !important;
     color: white !important;
     background-color: #052501 !important;
-    
 }
 
 
@@ -208,6 +207,6 @@
         margin-top: 5rem !important;
     }
     #testomonial p{
-        margin-left: -3.188rem !important;
+        margin-left: -3.41rem !important;
     }
 }
