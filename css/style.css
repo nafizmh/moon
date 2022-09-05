@@ -60,7 +60,7 @@
 }
 .myp{
     font-family: 'DynaPuff', cursive;
-    line-height: 2.0rem;
+    line-height: 2rem;
     font-size: 1rem !important;
 }
 .mybtn{
@@ -190,13 +190,121 @@
     background-color: #052501 !important;
 }
 
+/* ----------------------------------------Footer----------------------------------------- */
+
+footer{
+    background: #052501;
+}footer p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+.inner_footer{
+    padding: 30px 30px;
+}
+.inner_footer h3{
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+    border-bottom: 4px solid #3E7F21;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.inner_footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.inner_footer ul li{
+    margin: 0;
+    padding: 0;
+    margin: 10px 0px;
+}
+.inner_footer ul li a{
+    margin: 0;
+    padding: 0px 0px 0px 15px ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background-image: url(../pic/sing.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.inner_footer ul li:hover a{
+    color: #3A791F;
+    transition: 0.5s;  
+}
+.inner_footer form{
+     
+}
+.inner_footer form input{
+     width: 100%;
+    background: #FFFFFF;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+.inner_footer form input[type="submit"]{
+    width: 50%;
+    background-color: #30880D;
+    color: white;
+    font-weight: 500;
+}
+.inner_footer form input[type="submit"]:hover{
+    background-color: #FFFFFF;
+    color: #30880D;
+    transition: 0.5s;
+}
+.inner_footer .contact ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.inner_footer .contact ul li{
+    margin: 0;
+    padding: 0;
+    margin: 10px 0px;
+    margin: 0;
+    padding: 10px 0px 0px 15px ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.inner_footer .contact ul li span{
+    display: block;
+    margin-left: 26px;
+    color: #fff;
+    font-weight: 400;
+}
+.inner_footer ul li .fa-solid{
+    color: white !important;
+    padding: 0px 8px 8px 0px !important;
+    margin: 0 !important;
+
+}
 
 
-
-
-
-
-
+#coppyright_area{
+    background: #30880D;
+}
+#coppyright_area h6{
+    color: white;
+    font-weight: normal;
+}
+#coppyright_area h6 a{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+#coppyright_area h6 a:hover{
+    color: black;
+    transition: 0.5s;
+}
 
 
 @media (min-width: 768px){
