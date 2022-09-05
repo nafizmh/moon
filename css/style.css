@@ -1,43 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
-
 /* ----------------------------------------Tophead----------------------------------------- */
-#tophead{
+#tophead {
     background-color: #052501 !important;
     overflow: hidden;
 }
-.topheadicon{
+.topheadicon {
     color: #4BC714 !important;
     font-size: 1.3rem;
     padding-right: 1rem !important;
     padding-top: 1rem !important;
-    
 }
-.topheadh5{
+.topheadh5 {
     color: white;
     font-size: 0.9rem !important;
-    
 }
 /* ----------------------------------------Tophead End----------------------------------------- */
 /* ----------------------------------------Mainhead----------------------------------------- */
-#mainhead{
+#mainhead {
     margin-top: -1.8rem !important;
     overflow: hidden !important;
     background-color: #052501 !important;
 }
-.mainheadbgcolor{
+.mainheadbgcolor {
     background-color: #090501 !important;
 }
-.mainheadtxt{
+.mainheadtxt {
     color: white !important;
 }
-
-.mainheadsrcbtn{
+.mainheadsrcbtn {
     background-color: #052501 !important;
     margin-right: 2rem !important;
 }
 /* ----------------------------------------Mainhead End----------------------------------------- */
 /* ----------------------------------------Slider----------------------------------------- */
-#slider{
+#slider {
     height: 82vh;
     margin-top: -2rem;
     background-image: url(../pic/banner.jpg);
@@ -48,163 +44,159 @@
     /* align-items: center; */
     overflow: hidden;
 }
-.mymaintxt{
+.mymaintxt {
     font-family: 'DynaPuff', cursive;
     font-weight: 600;
     font-size: 4rem !important;
 }
-.mysubtxt{
+.mysubtxt {
     color: #4BC714 !important;
     font-size: 2rem;
     font-family: 'DynaPuff', cursive;
 }
-.myp{
+.myp {
     font-family: 'DynaPuff', cursive;
     line-height: 2rem;
     font-size: 1rem !important;
 }
-.mybtn{
+.mybtn {
     /* margin-right: 2rem; */
     border: 2px solid white !important;
     border-radius: 1rem;
     margin: auto !important;
 }
-.mybtna{
+.mybtna {
     font-weight: 600;
     font-family: 'DynaPuff', cursive;
 }
 /* ----------------------------------------Slider End----------------------------------------- */
 /* ----------------------------------------About----------------------------------------- */
-#about{
+#about {
     overflow: hidden;
 }
-.aboutmaintxt{
+.aboutmaintxt {
     color: #163F03;
 }
-.aboutsubtxt{
+.aboutsubtxt {
     font-weight: 100 !important;
     border-bottom: 1px solid #163F03;
 }
-.aboutbtn{
+.aboutbtn {
     background-color: #052501;
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top:0.5rem ;
-    padding-bottom:0.5rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 /* ----------------------------------------About End----------------------------------------- */
 /* ----------------------------------------Offer----------------------------------------- */
-
-#offer{
+#offer {
     overflow: hidden;
 }
-#box{
+#box {
     background-color: #052501;
 }
-.boxtxt{
+.boxtxt {
     color: #4BC714;
     font-size: 3rem !important;
 }
-.boxsubtxt{
+.boxsubtxt {
     font-weight: 100;
     font-size: 2rem !important;
-    color:white !important;
+    color: white !important;
 }
-.offermaintxth{
+.offermaintxth {
     font-weight: 100;
-
 }
-.offersubtxt{
+.offersubtxt {
     font-weight: 100;
     color: #4BC714 !important;
     margin-top: -1rem !important;
     border-bottom: 2px solid black;
 }
-.offeritem{
+.offeritem {
     background-color: #052501;
     overflow: hidden;
 }
-.offermaintxt{
+.offermaintxt {
     font-size: 1.875rem !important;
     color: white !important;
 }
-.offerbox2{
+.offerbox2 {
     margin-top: 2rem !important;
 }
 /* ----------------------------------------Offer End----------------------------------------- */
-
-
 /* ----------------------------------------Moon Product----------------------------------------- */
-#moonproduct{
+#moonproduct {
     overflow: hidden;
 }
-.moonproducthead .mymaintxt{
+.moonproducthead .mymaintxt {
     /* font-size: 2rem !important; */
     border-bottom: 2px solid;
 }
-.moonproducthead strong{
+.moonproducthead strong {
     color: #4BC714 !important;
     font-weight: 100;
 }
-.productboxwraper{
+.productboxwraper {
     position: relative;
 }
-.productname{
+.productname {
     position: absolute;
     color: white !important;
-    bottom:-0.438rem;
+    bottom: -0.438rem;
     z-index: 99999;
     width: 100%;
     padding: 15px 0 15px 0px;
     background-color: #052501d4 !important;
 }
-.productimgsize{
+.productimgsize {
     height: 20.6rem;
     width: 100%;
 }
 /* ----------------------------------------Moon Product End----------------------------------------- */
-#testomonial .mymaintxt{
-    /* font-size: 1.8rem !important; */
-    font-weight: 400 !important;
-    /* border-bottom: 2px solid; */
-}#testomonial .mymaintxtj{
+#testomonial .mymaintxt {
     /* font-size: 1.8rem !important; */
     font-weight: 400 !important;
     /* border-bottom: 2px solid; */
 }
-#testomonial strong{
+#testomonial .mymaintxtj {
+    /* font-size: 1.8rem !important; */
+    font-weight: 400 !important;
+    /* border-bottom: 2px solid; */
+}
+#testomonial strong {
     color: #4BC714 !important;
     font-weight: 100;
 }
-.testimg{
+.testimg {
     border: 13px solid #4BC714;
 }
-.testimg2{
+.testimg2 {
     position: relative;
     bottom: 0;
     right: -12.42rem;
 }
-#testomonial p{
+#testomonial p {
     padding: 29px 42px !important;
     color: white !important;
     background-color: #052501 !important;
 }
-
 /* ----------------------------------------Footer----------------------------------------- */
-
-footer{
+footer {
     background: #052501;
-}footer p{
+}
+footer p {
     color: white;
     font-size: 18px;
     line-height: 30px;
     margin-top: 15px;
     font-weight: 200;
 }
-.inner_footer{
+.inner_footer {
     padding: 30px 30px;
 }
-.inner_footer h3{
+.inner_footer h3 {
     color: #fff;
     font-size: 29px;
     font-weight: 500;
@@ -217,31 +209,28 @@ footer{
     margin: 0;
     padding: 0;
 }
-.inner_footer ul li{
+.inner_footer ul li {
     margin: 0;
     padding: 0;
     margin: 10px 0px;
 }
-.inner_footer ul li a{
+.inner_footer ul li a {
     margin: 0;
-    padding: 0px 0px 0px 15px ;
+    padding: 0px 0px 0px 15px;
     text-decoration: none;
     color: #fff;
     font-weight: 400;
     background-image: url(../pic/sing.png);
     background-repeat: no-repeat;
     background-position: left;
-    
 }
-.inner_footer ul li:hover a{
+.inner_footer ul li:hover a {
     color: #3A791F;
-    transition: 0.5s;  
+    transition: 0.5s;
 }
-.inner_footer form{
-     
-}
-.inner_footer form input{
-     width: 100%;
+.inner_footer form {}
+.inner_footer form input {
+    width: 100%;
     background: #FFFFFF;
     padding: 8px 10px;
     border-radius: 10px;
@@ -249,72 +238,67 @@ footer{
     outline: none;
     margin-bottom: 10px;
 }
-.inner_footer form input[type="submit"]{
+.inner_footer form input[type="submit"] {
     width: 50%;
     background-color: #30880D;
     color: white;
     font-weight: 500;
 }
-.inner_footer form input[type="submit"]:hover{
+.inner_footer form input[type="submit"]:hover {
     background-color: #FFFFFF;
     color: #30880D;
     transition: 0.5s;
 }
-.inner_footer .contact ul{
+.inner_footer .contact ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.inner_footer .contact ul li{
+.inner_footer .contact ul li {
     margin: 0;
     padding: 0;
     margin: 10px 0px;
     margin: 0;
-    padding: 10px 0px 0px 15px ;
+    padding: 10px 0px 0px 15px;
     text-decoration: none;
     color: #fff;
     font-weight: 400;
 }
-.inner_footer .contact ul li span{
+.inner_footer .contact ul li span {
     display: block;
     margin-left: 26px;
     color: #fff;
     font-weight: 400;
 }
-.inner_footer ul li .fa-solid{
+.inner_footer ul li .fa-solid {
     color: white !important;
     padding: 0px 8px 8px 0px !important;
     margin: 0 !important;
-
 }
-
-
-#coppyright_area{
+#coppyright_area {
     background: #30880D;
 }
-#coppyright_area h6{
+#coppyright_area h6 {
     color: white;
     font-weight: normal;
 }
-#coppyright_area h6 a{
+#coppyright_area h6 a {
     color: white;
     font-weight: normal;
     text-decoration: none;
 }
-#coppyright_area h6 a:hover{
+#coppyright_area h6 a:hover {
     color: black;
     transition: 0.5s;
 }
-
-
-@media (min-width: 768px){
-    .offerbox3{
+@media (min-width: 768px) {
+    .offerbox3 {
         margin-top: 13rem !important;
     }
-    .offerbox2{
+    .offerbox2 {
         margin-top: 5rem !important;
     }
-    #testomonial p{
+    #testomonial p {
         margin-left: -3.41rem !important;
     }
 }
